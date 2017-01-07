@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="style.css" type="text/css">
+<title>Вывод данных</title>
+</head>
+
+<body>
+ <fieldset>
+	<form action="select.php" method="post" name="forma">
+		<label for="Location">Ввести  для поиска название места отлова:</label><br/> <input type="text" name="Location" size="30"><br/> 
+		<label for="Fish_to_research">Ввести для поиска объект исследования:</label><br/> <input type="text" name="Fish_to_research" size="30"><br/>
+		<label for="Date">Ввести для поиска дату исследования:</label><br/> <input type="datetime" name="Date" size="30"><br/>
+		<label for="Results">Ввести для поиска результат исследования :</label><br/> <input type="text" name="Results" size="30"><br/>
+		<label for="Doctor">Ввести для поиска ФИО врача:</label><br/> <input type="text" name="Doctor" size="30"><br/>
+		<label for="Copmments">Ввести поиск коментарий:</label><br/> <input type="text" name="Comments" size="30"><br/>
+		<input id="submit" type="submit" value="Найти и вывести"><br/> 
+	</form> 
+ </fieldset>
+
+ <fieldset> 
+ 	<form method="post" action="index.php"> <input id="submit" type="submit" value="Вывести все данные"><br/> 
+	</form>
+ </fieldset> 
+<a href="info_form.html">Добавить данные</a>
+
+
+
+      
+</body>
+</html>

@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+body
+
+{
+	width:600px;
+    margin:0 auto; 
+	
+	}
+	
+		label
+	{
+	 display: block; 
+	 float: right;
+	 
+
+	 width: 350px;
+	 padding: 0 40px; 
+	 margin: 18px 0 0; 
+	 text-align: left;
+	 
+	 } 
+	 #submit
+	 {
+		 float:right; 
+		 margin:5px 50px 10px 0;
+		 }
