@@ -4,16 +4,139 @@
 	width: 1035px;
 	height: auto;
 	margin: 0 auto;
+}
+#block-header{
+	width: 1035px;
+	height: 120px;
 	
-}body
+}
+#block-header p{
+	font: bold 22px sans-serif;
+	margin-right: 125px;
+	margin-top: 80px;
+}
 
-{
-	width:600px;
-    margin:0 auto; 
+#block-right{
+	width: 220px;
+	height: auto;
+	float: right;
+	margin-top: 40px;
+}
+#block-right li{
+	float:left;
+	margin-left: 0px;
+	margin-top: 0px;
+	list-style:none;
+}
+#block-content{
+	width: 900px;
+	height: auto;
+	margit-top: -60px;
+	border:1px solid black:
+}
+#block-footer{
+	width: 1035px;
+	height: 5px;	
+	margit-top: 0px;
+	clear:both;
+	border-top:1px solid #EEEEEE;
+}
+
+	#img-logo{
+	background:url(images1.jpg);
+	width: 369px;
+	height:139px;	
+	margin-top: -60px;
+	margin-left: 0px;
+	position: absolute;
+}
+	#block-category{
+	width: 220px;
+	height: auto;
+	margin-top:0px;
+}
+.header-title{
+	width: 210px;
+	font: 14px sans-serif;
+	margin-top:0px;
+	padding-left:10px;
+	padding-bottom:7px;
+	padding-top:7px;
+	color:white;
+	background-color: rgba(76,79,15,1.00);
+}
+#block-category > ul > li {
+	margin-top: 0px;
+	list-style:none;
 	
-	}
+}
+#block-category > ul > li a{
+	font: 15px sans-serif;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	display: block;
+	cursor:pointer;
+	margin-left:-15px;
 	
-		label
+}
+#block-category > ul > li a:hover{
+	background-color: #EEEEEE;
+}
+.category-section{
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+.category-section li{
+	margin-top: 3px;
+	margin-bottom: 5px;
+	list-style:none;
+}
+.category-section a{
+	font: 15px sana-serif;
+	text-decoration: none;
+	color:black;
+}
+.category-section a:hover{
+	text-decoration: underline;
+}
+
+#block-parameter{
+	width: 220px;
+	height: auto;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.title-filter{
+	font: bold 14px sans-serif;
+	margin-top: -5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+.checkbox-size li{
+	font: 14px sans-serif;
+	list-style:none;
+	margin-left:0px;
+	margin-top:5px;
+	
+}
+.checkbox-size input{
+	margin-left:5px;
+	margin-top:5px;
+}
+#button-param-search{
+	width:81px;
+	height:27px;
+	background: rgba(134,134,134,1.00) ;
+	margin-top: 20px;
+	cursor:pointer;
+}
+#button-param-search:hover{
+	background: #d8d8d8;
+}
+
+
+	#label
 	{
 	 display: block; 
 	 float: right;
